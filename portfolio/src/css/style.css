@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Solid:wght@300&family=Poppins:wght@500&family=Varela+Round&display=swap');
+.name {
+  font-size: 100px;
+  color: black; 
+  font-family: 'Londrina Shadow', cursive; 
+}
+
+.navfont{
+  font-family: 'Poppins', sans-serif;
+  color:black; 
+ color: initial; 
+}
+
+.font {
+  font-family: 'Varela Round', sans-serif;
+  color:black; 
+}
+
+.color {
+  background-image: radial-gradient(#FAE6E7, #F4BBC9);
+}
+
+.photo { 
+  width: max-content;
+  height: max-content;
+  padding-right: 10%;
+}
+
+.contact {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.projects { 
+  width: 50%;
+  border-radius: 5%;
+}
+
+.buttons {
+  background-color: #F4BBC9;
+}
