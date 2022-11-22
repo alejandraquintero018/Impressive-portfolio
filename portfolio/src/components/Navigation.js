@@ -3,6 +3,7 @@ import 'bulma/css/bulma.css';
 import ProfilePhoto from '../css/Portfolio_Photo.jpeg';
 import Github from '../css/GitHub.png';
 import Linkedin from '../css/Linkedin.png';
+//import GithubLink from "https://github.com/alejandraquintero018"; 
 
 
 function Navigation({ currentPage, handlePageChange }) {
@@ -12,7 +13,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <div className="container">
           <div className="navbar-brand">
             <div className="navbar-item">
-              <img className="photo" src={ProfilePhoto} alt="Profile" />
+              <img className="photo is-large" src={ProfilePhoto} alt="Profile" />
               <p> Alejandra </p>
             </div>
             <span class="navbar-burger" data-target="navbarMenuHeroC">
@@ -34,7 +35,16 @@ function Navigation({ currentPage, handlePageChange }) {
               </div>
 
               <div class="navbar-item px-3">
-                <a
+                <a href="#about"
+                  onClick={() => handlePageChange('About')} class="navbar-item is-active"
+                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                  About
+                </a>
+
+              </div>
+
+              <div class="navbar-item px-3">
+                <a href="#projects"
                   onClick={() => handlePageChange('Project')}
                   className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}>
                   Projects
@@ -50,15 +60,16 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
 
               </div>
-
               <span class="navbar-item ">
-                <a>
-                  <img class="photo" src={Github} />
+              {/* href={GithubLink} */}
+                <a >
+                  <img class="photo" alt="github icon" src={Github} />
                 </a>
               </span>
+              {/* href={GithubLink} */}
               <span class="navbar-item">
-                <a>
-                  <img class="photo" src={Linkedin} />
+                <a >
+                  <img class="photo" alt='linkedin icon' src={Linkedin} />
                 </a>
               </span>
             </div>

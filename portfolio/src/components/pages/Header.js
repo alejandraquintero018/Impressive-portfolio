@@ -1,5 +1,4 @@
 import React from 'react';
-//import '.../src/css/style.css';
 import {motion} from 'framer-motion';
 
 function Header() {
@@ -11,7 +10,7 @@ function Header() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{
-                            duration: 3,
+                            duration: 4,
                             delay: 0.5,
                             ease: [0, 0.71, .5, 1.01]
                         }}>

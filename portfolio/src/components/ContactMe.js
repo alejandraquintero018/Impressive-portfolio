@@ -9,7 +9,7 @@ function ContactMe() {
             <section className="hero-body">
                 <div className="container">
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.8 }}
+                        initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1 ,scale: 1 }}
                         transition={{
                             duration: 3,
@@ -18,27 +18,20 @@ function ContactMe() {
                         }}>
                         <h1 className="name"> Contact Me </h1>
                         <div className="contact">
-                            {/* <motion.div
-                           initial={{ opacity: 0, scale: 0.5 }}
-                           animate={{ opacity: 1, scale: 1 }}
-                           transition={{
-                             duration: 1.5,
-                             delay: 0.5,
-                             ease: [0, 0.71, 0.2, 1.01]
-                           }}> */}
+                       
                             <div className="card p-6">
                                 <div className="card-body">
                                     <div className="field is-expanded is-medium">
                                         <label className="navfont">Name</label>
                                         <div class="control as-adons">
-                                            <input class="input" type="text" placeholder="Text input" />
+                                            <input class="input" type="text" />
                                         </div>
                                     </div>
 
                                     <div class="field">
                                         <label class="navfont">Email</label>
                                         <div class="control has-icons-left has-icons-right">
-                                            <input class="input is-danger" type="email" placeholder="Email input" />
+                                            <input class="input is-danger" type="email"  />
                                             <span class="icon is-small is-left">
                                                 <i class="fas fa-envelope"></i>
                                             </span>
@@ -53,7 +46,7 @@ function ContactMe() {
                                     <div class="field">
                                         <label class="font is-size-5">Message</label>
                                         <div class="control">
-                                            <textarea class="textarea" placeholder="Textarea"></textarea>
+                                            <textarea class="textarea" ></textarea>
                                         </div>
                                     </div>
 

@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import Header from './components/pages/Header';
 import Project from './components/Project';
 import ContactMe from './components/ContactMe';
+import About from './components/About';
 import 'bulma/css/bulma.css';
 import '../src/css/style.css';
 import React, { useState } from 'react';
@@ -17,6 +18,8 @@ export default function App() {
       return <ContactMe />;
     }if (currentPage === 'Project') {
       return <Project />;
+    }if (currentPage === 'About') {
+      return <About />;
     }
   }
   const handlePageChange = (page) => setCurrentPage(page);
