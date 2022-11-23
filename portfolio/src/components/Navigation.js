@@ -14,7 +14,7 @@ function Navigation({ currentPage, handlePageChange }) {
           <div className="navbar-brand">
             <div className="navbar-item">
               <img className="photo is-large" src={ProfilePhoto} alt="Profile" />
-              <p> Alejandra </p>
+              <p className='navfont' > Alejandra </p>
             </div>
             <span class="navbar-burger" data-target="navbarMenuHeroC">
               <span></span>
@@ -22,12 +22,12 @@ function Navigation({ currentPage, handlePageChange }) {
               <span></span>
             </span>
           </div>
-          <div id="navbarMenuHeroC" class="navbar-menu">
+          <div id="navbarMenuHeroC" className="navbar-menu">
             <div className="navbar-end">
 
-              <div class="navbar-item px-3">
+              <div className="navbar-item px-3 navfont">
                 <a href="#home"
-                  onClick={() => handlePageChange('Header')} class="navbar-item is-active"
+                  onClick={() => handlePageChange('Header')} class="navbar-item is-active navfont"
                   className={currentPage === 'Header' ? 'nav-link active' : 'nav-link'}>
                   Home
                 </a>
@@ -37,7 +37,7 @@ function Navigation({ currentPage, handlePageChange }) {
               <div class="navbar-item px-3">
                 <a href="#about"
                   onClick={() => handlePageChange('About')} class="navbar-item is-active"
-                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                  className={currentPage === 'About' ? 'nav-link active navfont' : 'nav-link'}>
                   About
                 </a>
 

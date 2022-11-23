@@ -34,10 +34,10 @@ function ContactMe() {
             <section className="hero-body">
                 <div className="container">
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
+                        initial={{ opacity: 0.1, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{
-                            duration: 3,
+                            duration: 2,
                             delay: 0.5,
                             ease: [0, 0.71, .5, 1.01]
                         }}>
