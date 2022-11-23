@@ -61,14 +61,14 @@ function Navigation({ currentPage, handlePageChange }) {
 
               </div>
               <span class="navbar-item ">
-              {/* href={GithubLink} */}
-                <a >
-                  <img class="photo" alt="github icon" src={Github} />
+              
+                <a href='https://github.com/alejandraquintero018'>
+                  <img class="photo" alt="github icon"  src={Github} />
                 </a>
               </span>
               {/* href={GithubLink} */}
               <span class="navbar-item">
-                <a >
+                <a href="https://www.linkedin.com/in/alejandra-quintero-a96669165/">
                   <img class="photo" alt='linkedin icon' src={Linkedin} />
                 </a>
               </span>

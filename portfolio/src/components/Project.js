@@ -27,8 +27,15 @@ function Project() {
                             <img alt="screenshot of application" className="projects column" src={TechBlog} />
                             <div className='column'>
                                 <p className="font title "> Full Stack Tech Blog </p>
-                                <p className='py-4 font'> Application using express.js, sequelize, and handlebars.js. This platform incorporates user authentication when the user to sign ups for an account. Once the user logs in, they will be redirected to their dashboard. On their dashboard, the user is able create a new blog post. When the blogpost is made. It will show up on thier dashboard where they are able to delete a previous blog post or they can edit the blogpost. It will also show up on the homepage where other users can read the blog and leave comments. </p>
+                                <p className='py-4 font'> Application using express.js, sequelize, and handlebars.js. 
+                                This platform incorporates user authentication when the user to sign ups for an account. 
+                                Once the user logs in, they will be redirected to their dashboard. On their dashboard, the 
+                                user is able create a new blog post. When the blogpost is made. It will show up on thier dashboard 
+                                where they are able to delete a previous blog post or they can edit the blogpost. It will also 
+                                show up on the homepage where other users can read the blog and leave comments. </p>
+                                <a href="https://alejandra-quintero-tech-blog.herokuapp.com/">
                                 <button className="button is-dark is-medium is-outlined ">Write a blog post</button>
+                                </a>
                             </div>
                         </motion.div>
                     
@@ -50,7 +57,9 @@ function Project() {
                                     Allows a user to log in or sign up and go to their profile and track a run. When a run is logged, 
                                     it changes the chart on the profile page which visualizes their running progression. 
                                     Also allows the viewer to see runs logged by other users on the homepage of the website. </p>
+                                    <a href="https://track-my-mileage.herokuapp.com/">
                                 <button className="button is-dark is-medium is-outlined">Track your running</button>
+                                </a>
                             </div>
                             <img alt="screenshot of application" className="projects column" src={TrackMyMileage} />
 
