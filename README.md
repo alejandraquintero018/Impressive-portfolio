@@ -2,7 +2,7 @@
 
 ## Description 
 
-A portfolio build with React build which showcases the best projects created throughout my coding bootcamp expierence as share  backgound information on my previous education and work expierence. This was my first project build with React which made it a learning expierence. Framer motion was integrated into the application to animate the elements within the pages. Difficulty involved 
+A portfolio build with React build which showcases the best projects created throughout my coding bootcamp expierence and features backgound information on my previous education and work expierence. This was my first project build with React which made it a learning expierence using React. Framer motion was integrated into the application to animate the elements within the pages. Some of the challenges with building this application was configuring emailJS to my application to recieve requests by users to my email. 
 
 ## Installation 
 
