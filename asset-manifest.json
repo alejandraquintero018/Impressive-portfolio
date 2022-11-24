@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Impressive-portfolio/static/css/main.fd13fe12.css",
-    "main.js": "/Impressive-portfolio/static/js/main.639e795b.js",
+    "main.js": "/Impressive-portfolio/static/js/main.8693b098.js",
     "static/js/787.1ed0c42c.chunk.js": "/Impressive-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ComingSoon.jpeg": "/Impressive-portfolio/static/media/ComingSoon.24dbb27d5eb76c9d7e4a.jpeg",
     "static/media/WeatherApi.png": "/Impressive-portfolio/static/media/WeatherApi.ad03ec4fd663ab3ad0f8.png",
@@ -12,11 +12,11 @@
     "static/media/GitHub.png": "/Impressive-portfolio/static/media/GitHub.63f3cbf6706074d83a86.png",
     "index.html": "/Impressive-portfolio/index.html",
     "main.fd13fe12.css.map": "/Impressive-portfolio/static/css/main.fd13fe12.css.map",
-    "main.639e795b.js.map": "/Impressive-portfolio/static/js/main.639e795b.js.map",
+    "main.8693b098.js.map": "/Impressive-portfolio/static/js/main.8693b098.js.map",
     "787.1ed0c42c.chunk.js.map": "/Impressive-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd13fe12.css",
-    "static/js/main.639e795b.js"
+    "static/js/main.8693b098.js"
   ]
 }
