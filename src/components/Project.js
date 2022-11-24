@@ -21,7 +21,7 @@ function Project() {
                             transition={{
                                 type: 'spring',
                                 bounce: 0.25,
-                                duration: 2,
+                                duration: 2.5,
                                 //delay: 0.5,
                                 ease: [0, 0.71, .5, 1.01]
                             }}>
@@ -46,7 +46,7 @@ function Project() {
                         transition={{
                             type: 'spring',
                             bounce: 0.25,
-                            duration: 2,
+                            duration: 2.5,
                             //delay: 0.5,
                             ease: [0, 0.71, .5, 1.01]
                         }}>
@@ -73,7 +73,7 @@ function Project() {
                            transition={{
                                type: 'spring',
                                bounce: 0.25,
-                               duration: 2,
+                               duration: 2.5,
                                //delay: 0.5,
                                ease: [0, 0.71, .5, 1.01]
                            }}>
@@ -98,7 +98,7 @@ function Project() {
                            transition={{
                                type: 'spring',
                                bounce: 0.25,
-                               duration: 2,
+                               duration: 2.5,
                                //delay: 0.5,
                                ease: [0, 0.71, .5, 1.01]
                            }}>
