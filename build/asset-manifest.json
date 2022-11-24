@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa60da17.css",
-    "main.js": "/static/js/main.2dadb6bb.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Portfolio_Photo.jpeg": "/static/media/Portfolio_Photo.6453c6f367a9ab579329.jpeg",
-    "index.html": "/index.html",
-    "main.fa60da17.css.map": "/static/css/main.fa60da17.css.map",
-    "main.2dadb6bb.js.map": "/static/js/main.2dadb6bb.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Impressive-portfolio/static/css/main.fd13fe12.css",
+    "main.js": "/Impressive-portfolio/static/js/main.639e795b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Impressive-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ComingSoon.jpeg": "/Impressive-portfolio/static/media/ComingSoon.24dbb27d5eb76c9d7e4a.jpeg",
+    "static/media/WeatherApi.png": "/Impressive-portfolio/static/media/WeatherApi.ad03ec4fd663ab3ad0f8.png",
+    "static/media/ProfilePhoto.png": "/Impressive-portfolio/static/media/ProfilePhoto.012f848677a6aaa79788.png",
+    "static/media/Portfolio_Photo.jpeg": "/Impressive-portfolio/static/media/Portfolio_Photo.6453c6f367a9ab579329.jpeg",
+    "static/media/TechBlog.png": "/Impressive-portfolio/static/media/TechBlog.6320f5f95cfb907ffd2d.png",
+    "static/media/TrackMyMileage1.png": "/Impressive-portfolio/static/media/TrackMyMileage1.943faa4359076a27ef95.png",
+    "static/media/GitHub.png": "/Impressive-portfolio/static/media/GitHub.63f3cbf6706074d83a86.png",
+    "index.html": "/Impressive-portfolio/index.html",
+    "main.fd13fe12.css.map": "/Impressive-portfolio/static/css/main.fd13fe12.css.map",
+    "main.639e795b.js.map": "/Impressive-portfolio/static/js/main.639e795b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Impressive-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa60da17.css",
-    "static/js/main.2dadb6bb.js"
+    "static/css/main.fd13fe12.css",
+    "static/js/main.639e795b.js"
   ]
 }

@@ -18,7 +18,7 @@ function Header() {
                     Hi, I'm
                 </p>
                 <h1 className="name"> Alejandra Quintero </h1>
-                <p className="font title">  I am chemist, turned full-stack developer
+                <p className="font title">  I am a chemist, turned full-stack developer
                 </p>
                 </motion.div>
             </div>
