@@ -64,7 +64,7 @@ function ContactMe() {
                                             <input name="email" 
                                             value={emailData.emailaddress} 
                                             onChange={handleInputChange}
-                                            className="input" type="email" />
+                                            className="input" type="text" />
                                         </div>
                                     </div>
 
