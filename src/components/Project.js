@@ -1,6 +1,7 @@
 import React from 'react';
 import TechBlog from '../css/TechBlog.png';
 import ComingSoon from '../css/ComingSoon.jpeg';
+import Veganism from '../css/veganism.png'
 import TrackMyMileage from '../css/TrackMyMileage1.png';
 import WeatherApi from '../css/WeatherApi.png';
 import { motion } from "framer-motion"
@@ -113,12 +114,12 @@ function Project() {
                                 If a user registers with the webpage, they are able to save resources that are of interest to them to their personal library and they will render on their profile.
                                 The motivation behind this application is to provide resources on veganism that and will not be bogged down with harmful,
                                 misleading, or exessive material, making veganism approachable for more people.  </p>
-                            <a className="pt-4 " href="https://alejandraquintero018.github.io/Weather-API-Dashboard/" target="_blank">
+                            <a className="pt-4 " href="https://young-everglades-48609.herokuapp.com/" target="_blank">
                                 <button className="button is-dark is-medium is-outlined ">Educate yourself on Veganism</button>
                             </a>
-                        </div>
+                        </div>  
 
-                        <img className="projects column" alt="placehholder image" src={ComingSoon} />
+                        <img className="projects column" alt="placehholder image" src={Veganism} />
                     </motion.div>
 
 

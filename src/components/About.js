@@ -23,8 +23,7 @@ function About() {
                             <h1 className="name"> About Me </h1>
 
                         <p className='font'> 
-                        
-                         A full stack developer with a certificate from University of California, Los Angeles extension campus for Full-Stack web development.
+                         A full stack developer with a certificate from University of California, Los Angeles extension campus in Full-Stack web development.
                          Through the bootcamp, I have gained proficiency in HTML, CSS, JavaScript, Node.js, React. 
                          Gained excellence using server side and third-party API’s and using databases including SQL, NoSQL, and GraphQL. 
                          I also have valuable experience using Express.js, Jest, Model-View-Controller Framework, Sequelize, and Apollo Sandbox. 

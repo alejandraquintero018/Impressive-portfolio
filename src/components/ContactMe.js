@@ -64,13 +64,7 @@ function ContactMe() {
                                             <input name="email" 
                                             value={emailData.emailaddress} 
                                             onChange={handleInputChange}
-                                            class="input is-danger" type="email" />
-                                            <span class="icon is-small is-left">
-                                                <i class="fas fa-envelope"></i>
-                                            </span>
-                                            <span class="icon is-small is-right">
-                                                <i class="fas fa-exclamation-triangle"></i>
-                                            </span>
+                                            className="input" type="email" />
                                         </div>
                                     </div>
 
