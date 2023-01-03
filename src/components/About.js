@@ -19,19 +19,22 @@ function About() {
                             delay: 0.5,
                             ease: [0, 0.71, .5, 1.01]
                         }}>
+
                             <h1 className="name"> About Me </h1>
 
-                        <p className='font'>A full stack developer with a strong background in chemistry. Holding a bachelors degree in Chemistry from University of California, Riverside.
-                            Research experience in quantitative method development and analysis of plant-produced metabolites,
-                            and work experience as an Analytical Chemist. Having adapted the discipline and attention to detail to be an efficient developer. 
-                            Through the UCLA extension campus, I have devloped front-end as well as back-end skills including proficiency in HTML, CSS, React, and Javascript, Node.js, Expres.js, and MVC Frameworks.  
-                            When I am not behind a computer screen coding, I am training for my next race, with my next race being a marathon in Febuarary 2023. 
-
+                        <p className='font'> 
+                        
+                         A full stack developer with a certificate from University of California, Los Angeles extension campus for Full-Stack web development.
+                         Through the bootcamp, I have gained proficiency in HTML, CSS, JavaScript, Node.js, React. 
+                         Gained excellence using server side and third-party API’s and using databases including SQL, NoSQL, and GraphQL. 
+                         I also have valuable experience using Express.js, Jest, Model-View-Controller Framework, Sequelize, and Apollo Sandbox. 
+                         I have a strong background in chemistry, having graduated from University of California, Riverside with a bachelor's degree in Chemistry with research experience in quantitative method development and work experience as an Analytical Chemist. 
+                         I have successfully been able to adapt the discipline, attention to detail, and work ethic from my background in chemistry to become an adept developer. 
+                         When I am not behind a computer screen coding, I am training for my next race, with my next race being in April 2023. 
                         </p>
 
 
                     </motion.div>
-
 
                     <motion.div className='column my-6'
                         initial={{ opacity: 0, y: -100 }}
